@@ -14,14 +14,19 @@ const ExtendedFab = styled(Fab)({
 
 const ExtendedFab1 = styled(Fab)({ 
 display: 'flex',
-justifyContent: 'flex-start',
+justifyContent: 'flex-end',
 // alignItems: 'flex-end',
 });
 
-const FabContainer = styled('div')({
+const FabContainer1 = styled('div')({
     display: 'flex',
-    gap: '16px', // Set the desired gap between the FABs
+    gap: '20px', // Set the desired gap between the FABs
   });
+
+const FabContainer = styled('div')({
+  display: 'flex',
+  gap: '760px', // Set the desired gap between the FABs
+});
 
 export default function FloatingActionButtons() {
     return (
@@ -46,12 +51,10 @@ export default function FloatingActionButtons() {
         },
       }}>
         <ExtendedFab1 variant="extended" size = "large">
-        
-          Clear Chat 
-                
+          Clear Chat        
         </ExtendedFab1>
       </Box>
       </FabContainer>
-      </div>
-    );
-  }
+    </div>
+  );
+}
