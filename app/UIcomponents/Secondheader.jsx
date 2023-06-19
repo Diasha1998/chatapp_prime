@@ -46,7 +46,9 @@ export default function FloatingActionButtons() {
         },
       }}>
         <ExtendedFab1 variant="extended" size = "large">
-          Clear Chat        
+        
+          Clear Chat 
+                
         </ExtendedFab1>
       </Box>
       </FabContainer>
